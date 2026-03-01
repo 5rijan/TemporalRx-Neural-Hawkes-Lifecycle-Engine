@@ -1,0 +1,25 @@
+{
+  "n_doctors": 10000,
+  "simulation_days": 56,
+  "random_seed": 42,
+  "archetype_distribution": {
+    "early_adopter": 0.15,
+    "skeptical_senior": 0.25,
+    "busy_registrar": 0.3,
+    "passive_tryer": 0.2,
+    "champion": 0.1
+  },
+  "base_error_rate": 0.12,
+  "base_crash_rate": 0.03,
+  "calendar_drip_days": [
+    1,
+    3,
+    7,
+    14,
+    21,
+    35
+  ],
+  "value_moment_threshold": 3,
+  "churn_gap_days": 14,
+  "output_dir": "./outputs"
+}
