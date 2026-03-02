@@ -37,8 +37,8 @@ from datetime import datetime, timedelta
 
 MODEL_PATH   = "../model/temporalrx_model.pt"
 SCALER_PATH  = "../model/temporalrx_scaler.pkl"
-EVENTS_PATH  = "../Data/outputs/doctor_events.csv"
-PROFILES_PATH= "../Data/outputs/doctor_profiles.csv"
+EVENTS_PATH  = "../data/outputs/doctor_events.csv"
+PROFILES_PATH= "../data/outputs/doctor_profiles.csv"
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
